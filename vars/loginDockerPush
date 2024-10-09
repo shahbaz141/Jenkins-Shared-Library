@@ -5,4 +5,5 @@ def call(String id){
                 sh "docker image tag notesapp:latest shahbaz141/notesapp:latest "
                 sh "docker push shahbaz141/notesapp:latest"
                 echo "login sucessfull and image pushed on the dockerhub"
+  }
 }
